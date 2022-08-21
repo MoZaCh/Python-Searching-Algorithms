@@ -19,6 +19,13 @@ def linear_search(arr, value):
     return found
 
 
+def binary_search(arr, value):
+
+    found = False
+
+    return found
+
+
 if __name__ == '__main__':
 
     listA = [1, 2, 4, 7, 8, 6]
