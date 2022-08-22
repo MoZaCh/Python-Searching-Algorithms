@@ -36,6 +36,7 @@ def copy_range_of_list(start, end, arr):
 
 def binary_search(arr, value):
 
+    print(arr)
     if len(arr) == 1:
         if arr[0] == value:
             return True
@@ -60,7 +61,7 @@ if __name__ == '__main__':
     listA = [1, 2, 4, 7, 8, 6]
     listB = [10]
     listC = []
-    listD = [1, 2]
+    listD = [1, 2, 3, 4, 7, 9, 11]
     #print(linear_search(listA, 7))
     #print(linear_search(listA, 10))
     #print(linear_search(listB, 10))
