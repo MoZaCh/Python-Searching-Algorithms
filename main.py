@@ -20,13 +20,24 @@ def linear_search(arr, value):
 
 
 def print_list(arr):
-
+    """
+    Iterates through the list sequentially and prints out each element
+    :param arr: Takes a list of integers as input
+    :return:
+    """
     for i in range(len(arr)-1):
         print(arr[i])
-    return True
+    return 0
 
 
 def copy_range_of_list(start, end, arr):
+    """
+    Takes a list and inputs start and end, which is used to access a subsequence and returns a new list
+    :param start: An integer of the starting index position
+    :param end: An integer of the ending index position
+    :param arr: A list of integers
+    :return: A new list of integers
+    """
     newList = []
 
     for i in range(start, end, 1):
@@ -35,7 +46,12 @@ def copy_range_of_list(start, end, arr):
 
 
 def binary_search(arr, value):
-
+    """
+    Takes a list of integers and using the divide and conquer concept it searches through the list for a specific value
+    :param arr: A list of integers
+    :param value: The specific value as a in integer to search for
+    :return: Returns boolean values: true or false depending on whether the value has been located
+    """
     print(arr)
     if len(arr) == 1:
         if arr[0] == value:
